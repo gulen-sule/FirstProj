@@ -14,7 +14,9 @@
   import spark.ModelAndView;
   import spark.template.mustache.MustacheTemplateEngine;
 
-import static spark.Spark.port
+import static spark.Spark.port;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
   public class App{
 
